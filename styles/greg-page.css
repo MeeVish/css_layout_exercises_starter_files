@@ -1,0 +1,62 @@
+.container {
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+nav {
+	height: 60px;
+	width: 100%;
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: grey;
+	padding-top: 0px;
+
+}
+
+nav p {
+	display: inline-block;
+	align-content: left;
+	font-size: 20px;
+}
+
+nav li {
+	
+	display: inline-block;
+	right: 90px ;
+	
+	align-items: right;
+	position: absolute;
+
+}
+
+/*nav ul {
+	display: inline-block;
+	align-items: left;
+
+
+
+nav li:after {
+	content: "";
+	margin-left: 120px;
+	
+}
+}*/
+
+input[type=text] {
+	padding: 10px;
+	border: 2px solid red;
+	width: 300px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	position: relative;
+
+}
+
+input[type=submit] {
+	padding: 10px;
+	cursor: pointer;
+	background: url(../images/outerspace_landscape.jpeg)
+}
