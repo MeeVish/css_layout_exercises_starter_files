@@ -18,19 +18,43 @@
 
 </head>
 <body>
-  <nav class="container">
+  <nav>
     <p>Greg's List</p>
-      <li> Post</li> 
-      <li>Account</li>
+      <ul>
+        <li> <a href="#"> Post</a></li> 
+        <li> <a href="#"> Account</a> </li>
+      </ul>
     
   </nav>
-  <main>
-    
-  <input type="text" name="jobsearch" placeholder="search software jobs"  />
-  <input type="submit" name="submit" value="send" id="submit" / >
+  
+    <form>
+      <input type="text" name="jobsearch" placeholder="search software jobs"  />
+      <input type="submit" name="submit" value="send" id="submit" / >
 
-
-
+    </form>
+      <nav class ="pages">
+        <a class ="button">&lt; Prev </a>
+        <span class ="dispay"  > 1 to 100 of 179</span>
+        <a class ="button">Next &gt;</a>
+      </nav>
+  <main>   
+    <ul class ="list">
+      <li class="list'">
+        <span class="listdate">June 22</span>
+        <a href="#" class="listtitle">Technical Project Manager</a>
+        <span class ="location">Midtown</span>
+      </li>
+      <li class="list'">
+        <span class="listdate">June 21</span>
+        <a href="#" class="listtitle">Frontend Developer</a>
+        <span class ="listlocation">SoHo</span>
+      </li>
+      <li class="list'">
+        <span class="listdate">June 20</span>
+        <a href="#" class="listtitle">Senior Python Developer</a>
+        <span class ="listlocation">Flatiron</span>
+      </li>
+    </ul>
   </main>
 
 </body>
